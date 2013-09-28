@@ -26,7 +26,7 @@ At the time i began to develop this, the blockchain.info socket API *seemed* uns
 
 Learning, studying scalability again. Just one single socket on the client to keep, and one single rest call towards the api seemed neat.
 
-""The components of the system:
+##The components of the system:
 
 ###Client application - the frontend
 

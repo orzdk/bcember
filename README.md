@@ -2,7 +2,7 @@
 
 This application is a experiment on how to monitor bitcoin addresses. 
 The architecture of the application should not nescessarily be considered best pratice, it lacks in functionality to be really useful, and has logic flaws with regards to how a bitcoin payment should be identified.
-Nevertheless, it works, seems stable ish, and demonstrates the latest ember versions as well as a couple of fun server 
+Nevertheless, it works, seems stable ish, and demonstrates the latest ember versions as well as a couple of fun server techniques
 
 The components of the system:
 

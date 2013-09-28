@@ -4,6 +4,8 @@ This application is a experiment on how to monitor bitcoin addresses.
 The architecture of the application should not nescessarily be considered best pratice, it lacks in functionality to be really useful, and has logic flaws with regards to how a bitcoin payment should be identified. Some approaches may indeed be suboptimal or insecure.
 Nevertheless, it works, seems stable ish, and demonstrates the latest ember versions as well as a couple of fun server techniques.
 
+#### TODO #1 : Passwords are not hashed ! 
+
 The application functions as follows:
 
 Client adds a bitcoin address to monitor. The address is pushed to the server in a socket subscription message and registered in the address pool.

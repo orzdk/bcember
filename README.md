@@ -4,6 +4,8 @@ This application is a experiment on how to monitor bitcoin addresses.
 The architecture of the application should not nescessarily be considered best pratice, it lacks in functionality to be really useful, and has logic flaws with regards to how a bitcoin payment should be identified. Some approaches may indeed be suboptimal or insecure.
 Nevertheless, it works, seems stable ish, and demonstrates the latest ember versions as well as a couple of fun server techniques.
 
+The application also demonstrates tight integration with ember-data, as well as an approach to integrating authentication tokens into ajax requests in ember.
+
 #### TODO #1 : Passwords are not hashed ! 
 
 The application functions as follows:

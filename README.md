@@ -24,9 +24,9 @@ Learning, studying scalability, wanted to try out both REST and socket modules.
 
 At the time i began to develop this, the blockchain.info socket API *seemed* unstable. I might have made mistakes, but it dropped the subscriptions very fast and in some cases responded extremely slowly.
 
-####Why not just manage the websocket subscriptions on the client, - thats what they are for, and very cheap to utilize
+####Why not just manage the websocket subscriptions on the client?
 
-Learning, studying scalability again. Just one single socket on the client to keep, and one single rest call towards the api seemed neat.
+Learning, studying scalability again. One single socket on the client, and one single pooled rest call towards the api seemed neat and clean.
 
 ##The components of the system:
 

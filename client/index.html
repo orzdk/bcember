@@ -41,19 +41,19 @@
 				<img style='margin-top:12px;margin-left:9px' src='images/input.png' border='0'>
 			</div>
 			<div class="small-4 columns">
-				{{ view Ember.TextField classNames="hest" valueBinding="address" placeholder="Address"}}
+				{{ view Ember.TextField classNames="d3" valueBinding="address" placeholder="Address"}}
 			</div>
 			<div class="small-2 columns">
-				{{ view Ember.TextField classNames="hest" valueBinding="title" placeholder="Title" }}
+				{{ view Ember.TextField classNames="d3" valueBinding="title" placeholder="Title" }}
 			</div>
 			<div class="small-2 columns">
-				{{ view Ember.TextField classNames="hest" valueBinding="duebtc" placeholder="Due amount BTC" }}
+				{{ view Ember.TextField classNames="d3" valueBinding="duebtc" placeholder="Due amount BTC" }}
 			</div>
 			<div class="small-2 columns">
-				<div>{{ view Ember.TextField disabled=true classNames="hest" valueBinding="balancebtc" placeholder="Balance BTC" }}</div>
+				<div>{{ view Ember.TextField disabled=true classNames="d3" valueBinding="balancebtc" placeholder="Balance BTC" }}</div>
 			</div>
 			<div class="small-1 columns ">
-				<button type="submit" class="small hest">Add</button>
+				<button type="submit" class="small d3">Add</button>
 			</div>
 		</div>
 	</form>
@@ -70,16 +70,16 @@
 				{{color monadr.duebtc monadr.balancebtc}}
 			</div>
 			<div class="small-4 columns">
-				{{ view Ember.TextField classNames="cowboy" valueBinding="monadr.address" }}
+				{{ view Ember.TextField classNames="d1" valueBinding="monadr.address" }}
 			</div>
 			<div class="small-2 columns">
-				{{ view Ember.TextField classNames="cowboy" valueBinding="monadr.title" }}
+				{{ view Ember.TextField classNames="d1" valueBinding="monadr.title" }}
 			</div>
 			<div class="small-2 columns">
-				{{ view Ember.TextField classNames="cowboy" valueBinding="monadr.duebtc" }}
+				{{ view Ember.TextField classNames="d1" valueBinding="monadr.duebtc" }}
 			</div>
 			<div class="small-2 columns">
-				{{ view App.balancebtcfield classNames="cowboy" valueBinding="monadr.balancebtc" }}
+				{{ view App.balancebtcfield classNames="d1" valueBinding="monadr.balancebtc" }}
 			</div>
 			<div class="small-1 columns ccenter">
 				<td><a href="#" {{action removeItem monadr}}><img style="margin-left:17px;margin-top:5px" src="images/delete-icon.png" border="0"/></a></td>
@@ -171,7 +171,6 @@
 			<div class="row">
 			<div class="large-6 columns">
 			{{input class="small button" type="submit" value="Log In"}}
-			<a {{action "udfyld"}}>hest</a>
 			</div>
 			</div>
 		  </form>

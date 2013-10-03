@@ -1,4 +1,4 @@
-.cowboy{
+.d1{
 	/* background-color:#aaccaa!important; 
 	font-weight:bold!important;
 	color:#222222!important;
@@ -9,7 +9,7 @@
 
 }
 
-.indianer{
+.d2{
 	margin-top:8px!important;
 	/*background-color:#99ccaa!important;
 	font-weight:bold!important;
@@ -17,7 +17,7 @@
 	border-color:white!important*/
 }
 
-.hest{
+.d3{
 	margin-top:8px!important;
 	/*background-color:#ddeedd!important;	
 	font-weight:bold!important;
@@ -25,23 +25,6 @@
 	border-color:white!important*/
 }
 
-.nomnom:{
-	margin:0;padding:0
-}
-
-.returntocenter:{
-	text-align:center
-}
-
-.waltherwhite:{
-	background-color:#ffffff
-	color:#000000
-}
-
-.jackblack:{
-	background-color:#000000
-	color:#ffffff
-}
 
 .ember-app {
  height: 100%;

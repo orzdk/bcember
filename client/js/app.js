@@ -184,8 +184,8 @@ App.LoginController = Ember.Controller.extend({
 	
 		udfyld: function(){
 			this.setProperties({
-			  username: "jeschrper@hotmail.com",
-			  password: "jc",
+			  username: "",
+			  password: "",
 			});
 		},
   
